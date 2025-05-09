@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Connect Coinbase</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>🔐 Connect Your Coinbase Account</h1>
+        <form method="POST">
+            <p>API Key:</p>
+            <input type="text" name="api_key" required><br><br>
+            <p>API Secret:</p>
+            <input type="password" name="api_secret" required><br><br>
+            <button type="submit">Connect</button>
+        </form>
+    </div>
+</body>
+</html>
