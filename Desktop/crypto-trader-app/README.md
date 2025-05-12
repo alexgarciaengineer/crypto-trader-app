@@ -1,1 +1,0 @@
-"# crypto-trader-app" 
